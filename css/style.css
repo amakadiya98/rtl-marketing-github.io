@@ -740,7 +740,9 @@ body {
   text-align: right;
   color: var(--white);
 }
-
+.connect-details input:focus, .connect-details textarea:focus{
+  border: 1px solid var(--green);
+}
 .connect-details input,
 .connect-details textarea {
   color: var(--white);
@@ -934,6 +936,7 @@ body {
 
 .register-section .form-part input:focus {
   outline: 0;
+  border: 1px solid var(--green);
 }
 
 .register-section .form-part .primary-btn {
@@ -1167,7 +1170,7 @@ body {
   }
 
   .banner-section .banner-content h2 span::before {
-    left: 58%;
+    left: 0;
     width: 110px;
   }
 

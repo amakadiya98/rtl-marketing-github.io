@@ -16,8 +16,8 @@ if (rangeValue === "0") {
 // CAROUSEL 
 
 $(document).ready(function () {
-    const nextIcon = '<img class="nextIcon" alt="arrow icon" src="./assets/images/slider/left-icon.svg"/>'
-    const prewIcon = '<img class="prewIcon" alt="arrow icon" src="./assets/images/slider/right-icon.svg"/>'
+    const nextIcon = '<img class="nextIcon" alt="arrow icon" src="./images/slider/left-icon.svg"/>'
+    const prewIcon = '<img class="prewIcon" alt="arrow icon" src="./images/slider/right-icon.svg"/>'
     $(".clientSlider").owlCarousel({
         items: 2,
         loop: true,
