@@ -1338,4 +1338,7 @@ body {
   body{
     overflow-x: hidden;
   }
+  .container{
+    width: 96%;
+  }
 }
