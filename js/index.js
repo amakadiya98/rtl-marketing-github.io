@@ -49,3 +49,12 @@ $(document).ready(function () {
     })
 
 });
+
+// pathlength
+
+const radius = 47;
+const circumference = 2 * Math.PI * radius;
+const progressCircle = document.getElementById('progress-circle');
+
+progressCircle.style.strokeDasharray = `${circumference}`;
+progressCircle.style.strokeDashoffset = `${circumference * (1 - 0.75)}`; 
