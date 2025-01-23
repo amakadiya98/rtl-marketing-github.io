@@ -1329,4 +1329,10 @@ body {
   .silder-section .card-content {
     padding: 20px;
   }
+  .banner-section::after{
+    width: 200px;
+  }
+  body{
+    overflow-x: hidden;
+  }
 }
