@@ -1332,6 +1332,9 @@ body {
   .banner-section::after{
     width: 200px;
   }
+  .digital-financial-solutions::before, .digital-financial-solutions::after{
+    width: 100%;
+  }
   body{
     overflow-x: hidden;
   }
