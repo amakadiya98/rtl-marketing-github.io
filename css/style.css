@@ -113,7 +113,7 @@ body {
 /* BANNER SECTION  */
 
 .banner-section {
-  background-image: url("../images/banner/banner-bg.svg");
+  background-image: url("../images/banner/banner-bg.webp");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
