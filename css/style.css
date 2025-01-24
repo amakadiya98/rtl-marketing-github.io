@@ -407,7 +407,7 @@ body {
 }
 
 .digital-financial-solutions-tabs .nav .nav-item .nav-link:hover {
-  background-color: #081711;
+  background-color: var(--light-green);
 }
 
 .digital-financial-solutions-tabs .nav .nav-item .nav-link .tab-name-head {
@@ -756,6 +756,7 @@ body {
   background-color: var(--form-gray-color);
   border-radius: 8px;
   padding: 18px 14px !important;
+  resize: none;
 }
 
 .connect-details input {
@@ -1094,6 +1095,10 @@ body {
   .silder-section {
     padding: 80px 0;
   }
+
+  .connect-section .connect-form .connect-details{
+    padding-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 769px) {
@@ -1219,7 +1224,7 @@ body {
   }
 
   .compare-section .trade-app-card-column .trade-app-card .description {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .compare-section .trade-app-card-column .trade-app-card .heading {
@@ -1339,6 +1344,19 @@ body {
     overflow-x: hidden;
   }
   .container{
-    width: 96%;
+    width: 96% !important;
+  }
+
+  .silder-section .owl-theme .owl-nav {
+    gap:10px;
+  }
+
+  .compare-section .trade-app-card-column .trade-app-card .star-img{
+    width: 16px;
+    height: 16px;
+  }
+
+  .compare-section .trade-app-card-column .trade-app-card .under-btn-text{
+    text-align: right;
   }
 }
